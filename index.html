@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+<link rel ="stylesheet" href="stylesheet.css"> <!-- this links the stylesheet to the html file-->
+
+</head>
+<title>Whatever the weather</title>
+
+<body>
+<section class="headings"> <!-- here is where a user can search for a city-->
+  <div class="container">
+    <h1 class="heading">Whats the weather?</h1>
+    <form>
+      <input type="text" placeholder="Search for a city here" autofocus>
+      <button type="submit">Search</button> <!-- this is where the user submits the city they want to search-->
+      
+      <span class="msg"></span>
+    </form>
+  </div>
+</section>
+<br>
+<br>
+<section class="appending"> <!-- this is where the data is appended to-->
+  <div class="container">
+    <ul class="cities"></ul>
+  
+  </div>
+  <script src="weather.js"></script> 
+ 
+  </body>
